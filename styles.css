@@ -89,3 +89,26 @@ button:active {
         margin: 2px 1px;
     }
 }
+@media  (min-width: 300px) and (max-width: 500px) {
+    .text-conteiner {
+        width: 200px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .keyboard {
+        width: 350px;
+    }
+    .btn {
+        width: 15px;
+        height: 15px;
+        font-size: 9px;
+        margin: 1px;
+
+    }
+    .btn-space, .btn-enter, .btn-backspace, .btn-capslock {
+        height: 15px;
+        font-size: 9px;
+        margin: 1px;
+    }
+    
+}
